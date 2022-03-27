@@ -11,6 +11,7 @@
   inputs.src-bluu-0_0_6.ref   = "refs/tags/0.0.6";
   inputs.src-bluu-0_0_6.owner = "disruptek";
   inputs.src-bluu-0_0_6.repo  = "bluu";
+  inputs.src-bluu-0_0_6.dir   = "";
   inputs.src-bluu-0_0_6.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";

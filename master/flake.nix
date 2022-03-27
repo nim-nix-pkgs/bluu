@@ -11,6 +11,7 @@
   inputs.src-bluu-master.ref   = "refs/heads/master";
   inputs.src-bluu-master.owner = "disruptek";
   inputs.src-bluu-master.repo  = "bluu";
+  inputs.src-bluu-master.dir   = "";
   inputs.src-bluu-master.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";
