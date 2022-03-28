@@ -11,8 +11,15 @@
   inputs.src-bluu-0_0_5.ref   = "refs/tags/0.0.5";
   inputs.src-bluu-0_0_5.owner = "disruptek";
   inputs.src-bluu-0_0_5.repo  = "bluu";
-  inputs.src-bluu-0_0_5.dir   = "";
   inputs.src-bluu-0_0_5.type  = "github";
+  
+  inputs."github.com/disruptek/rest".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/rest".ref   = "master";
+  inputs."github.com/disruptek/rest".repo  = "github.com/disruptek/rest";
+  inputs."github.com/disruptek/rest".dir   = "";
+  inputs."github.com/disruptek/rest".type  = "github";
+  inputs."github.com/disruptek/rest".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/rest".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
