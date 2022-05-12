@@ -121,11 +121,11 @@
       },
       "locked": {
         "dir": "1_0_5",
-        "lastModified": 1651919044,
-        "narHash": "sha256-bDrRIqrrsJV6zG7cR4XpM2IGoUWOVQ0h9tP3pW7XdPg=",
+        "lastModified": 1652392194,
+        "narHash": "sha256-togc0An2YnZ1dPwrrrzhT5lMAdpmE9knkNyWGe83uWM=",
         "owner": "nim-nix-pkgs",
         "repo": "github-disruptek-rest",
-        "rev": "0b9df6b2c78daad747897186d7b558f65d04019f",
+        "rev": "5e5cd1ef1fe5c652c6a8eb3b879a9a2852bc2260",
         "type": "github"
       },
       "original": {
@@ -189,11 +189,11 @@
       },
       "locked": {
         "dir": "0_26_0",
-        "lastModified": 1651918254,
-        "narHash": "sha256-ayltusHsJ/qEWSRZEZy//cIHmWuw2O5UXhfZu4Vv2bY=",
+        "lastModified": 1652391377,
+        "narHash": "sha256-I3AhWf8LFL85bCDwl2VhCXBuyBo8+HuT/cg7jlhKVGM=",
         "owner": "nim-nix-pkgs",
         "repo": "npeg",
-        "rev": "82a5f339ae4db0c7e6224bc0be32a748e9fdaf4b",
+        "rev": "8dfa9b03c98561047e924b0a55268ca8aaf0e927",
         "type": "github"
       },
       "original": {
@@ -248,11 +248,11 @@
       },
       "locked": {
         "dir": "3_3_1",
-        "lastModified": 1651919348,
-        "narHash": "sha256-21ab0P334Rn1yYYE0j9jd3joR0wUcIKXdsQcjyxNiTs=",
+        "lastModified": 1652392556,
+        "narHash": "sha256-KiQszRY8jPdzgZajzs+lkg0aVjn9ykMSGt/SrclEM7k=",
         "owner": "nim-nix-pkgs",
         "repo": "openapi",
-        "rev": "dc7524bd718773d16e36d099d92baaf48794695f",
+        "rev": "75050a8bb06cab0f5c050a486318be3de9a9d0c8",
         "type": "github"
       },
       "original": {
