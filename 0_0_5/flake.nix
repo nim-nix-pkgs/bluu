@@ -13,13 +13,13 @@
   inputs.src-bluu-0_0_5.repo  = "bluu";
   inputs.src-bluu-0_0_5.type  = "github";
   
-  inputs."github-disruptek-rest".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-rest".ref   = "master";
-  inputs."github-disruptek-rest".repo  = "github-disruptek-rest";
-  inputs."github-disruptek-rest".dir   = "1_0_5";
-  inputs."github-disruptek-rest".type  = "github";
-  inputs."github-disruptek-rest".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-rest".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/rest".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/rest".ref   = "master";
+  inputs."github.com/disruptek/rest".repo  = "github.com/disruptek/rest";
+  inputs."github.com/disruptek/rest".dir   = "";
+  inputs."github.com/disruptek/rest".type  = "github";
+  inputs."github.com/disruptek/rest".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/rest".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
